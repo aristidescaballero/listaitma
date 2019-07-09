@@ -1,0 +1,128 @@
+<ion-header>
+  <ion-toolbar  color="primary">
+      <ion-buttons slot="start">
+          <ion-back-button></ion-back-button>
+        </ion-buttons>
+
+        <ion-buttons slot="end">
+            <ion-button routerLink="/home">
+                <ion-icon name="log-out"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+        
+    <ion-title>FUN.PROG-S11 - FALTAS</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+    <ion-list>
+        <ion-list-header>
+         <ion-item> 
+            <ion-label>Hasta hoy: </ion-label>
+            <ion-datetime display-format="DD MMM YYYY" disabled value="{{fecha}}"></ion-datetime>
+          </ion-item>
+
+        </ion-list-header>
+
+        <ion-item>
+            <ion-label>181070164	ALARCÓN	ESQUEDA	PAOLA</ion-label>
+            <ion-badge slot="end"  color="danger">10</ion-badge>
+          </ion-item>
+
+       
+<ion-item>
+            <ion-label>191070023	ARRIAGA	EMIGDIO	TERESA</ion-label>
+            <ion-badge slot="end"  color="warning">8</ion-badge>
+        </ion-item>
+<ion-item>
+            <ion-label>191070029	BAEZA	CRUZ	DANIEL</ion-label>
+        
+        </ion-item>
+<ion-item>
+            <ion-label>171070293	CABELLO	MARTÍNEZ	ALAN</ion-label>
+        
+        </ion-item>
+<ion-item>
+            <ion-label>181070260	CAMACHO	CARRANZA	JUAN CARLOS</ion-label>
+        
+        </ion-item>
+<ion-item>
+            <ion-label>191070019	CARDOSO	IBARRA	KARLA JACQUELIN</ion-label>
+        
+        </ion-item>
+<ion-item>
+            <ion-label>181070228	CASTAÑEDA	AVIÑA	LAURA ANGELICA</ion-label>
+            <ion-badge slot="end"  color="danger">9</ion-badge>
+        </ion-item>
+<ion-item>
+            <ion-label>191070005	ENCARNACION	RAMÍREZ	MIRIAM</ion-label>
+      
+        </ion-item>
+<ion-item>
+            <ion-label>171070096	FUENTES	BRAVO	GERARDO</ion-label>
+    
+        </ion-item>
+<ion-item>
+            <ion-label>191070010	GARCÍA	JIMÉNEZ	MÓNICA LIZBETH</ion-label>
+    
+        </ion-item>
+<ion-item>
+            <ion-label>191070030	JACOBO	LUJAN	ALBERTO EVERETT</ion-label>
+     
+        </ion-item>
+<ion-item>
+            <ion-label>191070032	LONGORIA	PALMA	ERIKA</ion-label>
+    
+        </ion-item>
+<ion-item>
+            <ion-label>191070026	MILLÁN	OROZCO	GABRIEL</ion-label>
+    
+        </ion-item>
+<ion-item>
+            <ion-label>191070035	MONDRAGÓN	MOCAYO	ENRIQUE JAFET</ion-label>
+    
+        </ion-item>
+<ion-item>
+            <ion-label>191070013	MONROY	PEÑA	LUIS ANGEL</ion-label>
+   
+        </ion-item>
+<ion-item>
+            <ion-label>171070259	NAVA	PAREDES	ISRAEL</ion-label>
+    
+        </ion-item>
+<ion-item>
+            <ion-label>181070213	PALACIOS	PADILLA	CARLOS JESUS</ion-label>
+   
+        </ion-item>
+<ion-item>
+            <ion-label>191070031	PEÑA	GALICIA	JOSE LUIS</ion-label>
+    
+        </ion-item>
+         
+    </ion-list>
+  </ion-content>
+
+  <ion-footer>
+      <ion-toolbar>
+       
+          <ion-tabs>
+              <ion-tab-bar slot="bottom"  color="primary">
+                           
+                <ion-tab-button  routerLink="/profesor">
+                  <ion-icon name="apps"></ion-icon>
+                  <ion-label>MATERIAS</ion-label>
+                </ion-tab-button>
+            
+                <ion-tab-button  routerLink="/reporte">
+                  <ion-icon name="paper"></ion-icon>
+                  <ion-label>FALTAS</ion-label>
+                </ion-tab-button>
+            
+                
+              </ion-tab-bar>
+            </ion-tabs>
+    
+  </ion-toolbar>
+</ion-footer>
+
